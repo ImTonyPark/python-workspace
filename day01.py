@@ -87,3 +87,6 @@ num = 1000
 print (num)
 print (f'저장값 {num} 입니다')
 print ('저장값 {} 입니다'.format(num))
+
+num = 5
+print ('변경후 :' , num)
