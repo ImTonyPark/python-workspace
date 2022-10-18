@@ -90,3 +90,6 @@ print ('저장값 {} 입니다'.format(num))
 
 num = 5
 print ('변경후 :' , num)
+
+num = num + 100
+print('연산 후 :' , num)
