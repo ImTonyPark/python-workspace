@@ -93,3 +93,10 @@ print ('변경후 :' , num)
 
 num = num + 100
 print('연산 후 :' , num)
+
+num1 = 5
+num2 = 10
+sum = num1 + num2
+print ('n1 :',num1)
+print ('n2 :',num2)
+print ('sum :', sum)
