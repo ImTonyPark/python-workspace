@@ -12,9 +12,9 @@ while True:
     if num == 1:
         name = input('학생의 이름을 입력하십시요 => ')
     elif num == 2:
-        kor = input('국어 점수 =>')
-        eng = input('영어 점수 =>')
-        math = input('수학 점수 =>')
+        kor = int(input('국어 점수 =>'))
+        eng = int(input('영어 점수 =>'))
+        math = int(input('수학 점수 =>'))
     elif num == 3:
         print('이름:',name)
     elif num == 4:
