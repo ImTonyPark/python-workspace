@@ -29,3 +29,40 @@ if num1 < 0:    #이렇게도 표현된다. num * -1 => -num1
     print(num1, "의 절대값은 :",num1 * -1)
 
 
+num = int(input("수 입력 : "))
+if num%7 == 1: print(num," : 월요일")
+if num%7 == 2: print(num," : 화요일")
+if num%7 == 3: print(num," : 수요일")
+if num%7 == 4: print(num," : 목요일")
+if num%7 == 5: print(num," : 금요일")
+if num%7 == 6: print(num," : 토요일")
+if num%7 == 0: print(num," : 일요일")
+
+print("=====세 수중 가장 큰 수======")
+n1 = int(input("수 입력 : "))
+n2 = int(input("수 입력 : "))
+n3 = int(input("수 입력 : "))
+if n1 > n2 and n1 > n3: print(n1,"가장 큰 수")
+if n2 > n1 and n2 > n3: print(n2,"가장 큰 수")
+if n3 > n1 and n3 > n2: print(n3,"가장 큰 수")
+
+print("=====두 수중 큰 수가 짝수======")
+n1 = int(input("수 입력 : "))
+n2 = int(input("수 입력 : "))
+if n1>n2 and n1%2==0:
+    print(n1,"은 크며 짝수다")
+if n2>n1 and n2%2==0:
+    print(n2,"은 크며 짝수다")
+
+print("=====두 수 합이 짝수며 3의 배수======")
+n1 = int(input("수 입력 : "))
+n2 = int(input("수 입력 : "))
+sum_ = n1 + n2
+if sum_ % 2==0 and sum_%3==0: #sum_ % 6==0
+    print("짝수며 3의 배수다")
+
+
+
+
+
+
